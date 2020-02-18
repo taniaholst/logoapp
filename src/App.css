@@ -1,9 +1,11 @@
 .App {
   text-align: center;
-  margin: 10rem;
 }
 
-.logo-container{
-  width: 20rem;
+.logo__container{
   margin: 5rem;
+}
+
+.logo__image {
+  width: 25rem;
 }

@@ -1,62 +1,96 @@
 import {Component} from "react";
 import React from "react";
+import ListOfImages from "./listofimages";
+import docker from './images/docker.png'
+import elm from './images/elm.svg'
+import go from './images/go.png'
+import java from './images/java.png'
+import jupyter from './images/jupyter.png'
+import kafka from './images/kafka.png'
+import kotlin from './images/kotlin.png'
+import kubeflow from './images/kubeflow.png'
+import nodejs from './images/nodejs.svg'
+import python from './images/python.png'
+import r from './images/r.png'
+import react from './images/react.png'
+import rust from './images/rust.png'
+import vue from './images/vue.png'
 
-class ListOfImages extends Component {
+class ImageClass extends Component {
     render() {
         const images = [{
-            photo: './images/docker.png',
+            photo: docker,
             text: "docker"
         }, {
-            photo: './images/go.png',
+            photo: elm,
+            text: "elm"
+        }, {
+            photo: go,
             text: "go"
         }, {
-            photo: './images/java.png',
+            photo: java,
             text: "java"
         }, {
-            photo: './images/jupyter.png',
+            photo: jupyter,
             text: "jupyter"
         }, {
-            photo: './images/kafka.png',
+            photo: kafka,
             text: "kafka"
         }, {
-            photo: './images/kotlin.png',
+            photo: kotlin,
             text: "kotlin"
         }, {
-            photo: './images/kubeflow.png',
+            photo: kubeflow,
             text: "kubeflow"
         }, {
-            photo: './images/nodejs.png',
+            photo: nodejs,
             text: "node"
         }, {
-            photo: './images/python.png',
+            photo: python,
             text: "python"
         }, {
-            photo: './images/r.png',
+            photo: r,
             text: "r"
         }, {
-            photo: './images/react.png',
+            photo: react,
             text: "react"
         }, {
-            photo: './images/rust.png',
+            photo: rust,
             text: "rust"
         }, {
-            photo: './images/vue.png',
+            photo: vue,
             text: "vue"
+
         }];
+
+        const array = () => {
+            return images.map((e, id) =>
+                <ListOfImages
+                    photo={e.photo}
+                    text={e.text}
+                    key={id}
+                />
+            )
+        };
+        console.log("lengde:", images.length);
+
+        const randomItem = () => {
+            return images[Math.floor(Math.random() * images.length)]
+        };
 
 
         return (
             <div>
-{/*                {images.map((e, id) =>
+                {images.map((e, id) =>
                     <ListOfImages
                         photo={e.photo}
                         text={e.text}
                         key={id}
                     />
-                )}*/}
+                )}
             </div>
         );
     }
 }
 
-export default ListOfImages;
+export default ImageClass;

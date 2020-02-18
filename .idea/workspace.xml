@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13f7fe12-4d00-4724-b3ff-b54b22bdf4a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/technologies/images.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/technologies/listofimages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/technologies/images/elm.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/docker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/docker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/go.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/go.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/jupyter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/jupyter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/kafka.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/kafka.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/kotlin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/kotlin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/kubeflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/kubeflow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/nodejs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/nodejs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/python.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/python.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/r.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/r.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/react.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/react.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/rust.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/rust.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teknologier/vue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/vue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technologies/images.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technologies/images/docker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/docker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technologies/images/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technologies/images/jupyter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/jupyter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technologies/images/kubeflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/images/kubeflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technologies/listofimages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/technologies/listofimages.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -83,21 +71,28 @@
       <option name="presentableId" value="Default" />
       <updated>1581775689015</updated>
       <workItem from="1581775690422" duration="1361000" />
-      <workItem from="1581777247139" duration="3318000" />
+      <workItem from="1581777247139" duration="7431000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581780231638">
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581943712974">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581780231638" />
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581943712974" />
     <state x="217" y="159" key="new project wizard" timestamp="1581776822764">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="217" y="159" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1581776822764" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1581943553296">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1581943553296" />
   </component>
 </project>
